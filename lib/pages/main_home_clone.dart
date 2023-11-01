@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
+// import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:toters_ui_clone/utils/colors.dart';
 import 'package:toters_ui_clone/utils/dimensions.dart';
 import 'package:toters_ui_clone/widgets/big_text.dart';
@@ -180,13 +180,13 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ),
                     ),
-                    Positioned(
-                        bottom: Dimensions.height20 * 2,
-                        child: SmoothPageIndicator(
-                            controller: _pageController, // PageController
-                            count: itemCount,
-                            effect: SlideEffect(), // your preferred effect
-                            onDotClicked: (index) {})),
+                    // Positioned(
+                    //     bottom: Dimensions.height20 * 2,
+                    //     child: SmoothPageIndicator(
+                    //         controller: _pageController, // PageController
+                    //         count: itemCount,
+                    //         effect: SlideEffect(), // your preferred effect
+                    //         onDotClicked: (index) {})),
                   ],
                 ),
               ),
